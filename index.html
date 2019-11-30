@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>The Pretty Rekless</title>
+    <link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+Specify in CSS
 <style>
+
      html {
         height:100%;
         width:100%;
@@ -18,12 +21,22 @@ body{
 background-size: 100% 100%;
   
 }
+
 div#Contenedor{
 position:fixed;
-width: 450px;
+margin-left: -30px;
+margin-top:-15px ;
+width: 700px;
 height: 100%;
 text-align: center;
 background-color: black;
+color: white;
+}
+div.Menu1 ul li{
+    font-family: 'Rubik Mono One', sans-serif;
+    padding:15px 10px;
+    list-style:none;
+    border-bottom: 1px solid white;
 }
 
 
@@ -33,12 +46,12 @@ background-color: black;
 </head>
 <body>
 <div id="Contenedor">
-<div>
+<div class="Menu1">
     <ul>
-        <li><img src="Letras.jpg"></li>
-        <li>Integrantes</li>
-        <li>Giras</li>
-        <li>Tienda</li>
+        <li><img class="titulo" src="nombre2.jpg"></li>
+        <li><a name="#Integrantes">Integrantes</a></li>
+        <li><a name="#Giras">Giras</a></li>
+        <li><a name="#Tienda">Tienda</a></li>
     </ul>
 </div>
 </div>
