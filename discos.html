@@ -30,13 +30,25 @@ margin: 0%;
 body{
     background-image: url("./Imagenes/tpr negra.jpg")
 }
+div#Lista1{
+margin-right: 10%;
+margin-left: 10%;
+}
 div#Lista1 ul li{
-    color: white;
+  
     font-family: 'Viga', sans-serif;
     display: inline;
     margin-right: 3%;
-    
+   
  
+}
+div#Lista1 ul li a:hover{
+    font-size: 180%;
+}
+div#Lista1 ul li a{
+  text-decoration: none;
+    color: white;
+    font-size: 190%;
 }
 div#Lista1 ul{
    
@@ -52,16 +64,19 @@ div#Lista1 ul{
 </style>
 </head>
 <body>
-    
-    <p id="Discos">Discografia</p>
+    <header>
+    <p id="Discos">Discografía</p>
     <div id="Lista1">
         <ul>
-            <li>Inicio</li>
-            <li>Giras</li>
-            <li>Integrantes</li>
-            <li>Tienda</li>
+             <li><a href="index.html">Inicio</a></li>
+            <li><a href="Integrantes.html">Integrantes</a></li>
+            <li><a href="Giras.html">Giras</a></li>
+            <li><a href="Tienda.html">Tienda</a></li>
+           
         </ul>
+
     </div>
+    </header>
     <div class="Contenedor1"> 
        <div></div>
     </div>
