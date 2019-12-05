@@ -10,15 +10,19 @@
     <style>
         body {
             background-color: black;
+            height: 200%;
         }
 
         div.Contenedor1 {
             border-color: white;
             border-style: solid;
-            padding: 30%;
-            margin: 10%;
+           width:80% ;
+           height:80% ;
             background-color: black;
             margin-top: 5%;
+            margin-left:10% ;
+            margin-right:10% ;
+            margin-bottom:10% ;
         }
 
         p#Discos {
@@ -71,12 +75,23 @@
 
 
         }
-       div#uno{
-         border-style:solid ;
-         border-color:white ;  
+        tr td a:hover{
+            font-size: 100%;
+        }
+        tr td a{
+            text-decoration: none;
+            color: yellow;
+            font-size: 90%;
+        }
+      td{
+          padding-left:5% ;
+          padding-right:5% ;
+          padding-top:5% ;
+          padding-bottom:5% ;
+          font-size: 130%;
+      }
+      
 
-        
-       }
 
         p{
             font-family: 'Viga', sans-serif;
@@ -102,10 +117,30 @@
         </div>
     </header>
     <div class="Contenedor1">
-    <div id="uno">
-            <img src="./Imagenes/The Pretty Reckless.jpg">
-           
-        </div>
+   <table>
+       <tr>
+           <td> <img src="./Imagenes/The Pretty Reckless.jpg"> </td>
+           <td><p>The Pretty Reckless es el EP homónimo debut de la banda de rock The Pretty Reckless. El EP fue lanzado el 22 de junio de 2010, por Interscope Records.</p>
+            <p>Canción más famosa del EP: <a href="./Canciones/Make Me Wanna Die.mp3">Make Me Wanna Die</a></p></td>
+       </tr>
+       <tr>
+           <td><img src="./Imagenes/Light Me Up.png"></td>
+           <td><p>Light Me Up fué el primer album completo de la banda. Fue lanzado el 27 de agosto de 2010.  El álbum recibió buen éxito comercial con los sencillos Miss Nothing y Just Tonight</p>
+        <p>Canción mas famosa del album: <a href="./Canciones/Miss Nothing.mp3">Miss Nothing</a></p></td>
+       </tr>
+       <tr>
+           <td><img src="./Imagenes/Going to hell.png"></td>
+           <td><p>Going To Hell es el segundo álbum de estudio de la banda estadounidense de rock The Pretty Reckless. Fue lanzado en marzo de 2014 por Razor & Tie en Estados Unidos y por Cooking Vinyl en Europa.</p> 
+        <p>La canción mas famosa del album: <a href="./Canciones/Heaven Knows.mp3">Heaven Knows</a></p>
+        </td>
+        </tr>
+        <tr>
+            <td><img src="./Imagenes/Who selling for.png"></td>
+            <td><p>Who You Selling For es el tercer álbum de estudio de la banda estadounidense de rock The Pretty Reckless. Fue lanzado en 21 de octubre de 2016 por Razor & Tie en Estados Unidos. Este album se centra principalmente en baladas rock</p>
+            <p>La cancón mas famosa del album: <a href="./Canciones/Take Me Down.mp3">Take Me Down</a></p></td>
+        </tr>
+   </table>
+       
 
 
     </div>
