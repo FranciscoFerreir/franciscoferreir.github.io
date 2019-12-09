@@ -1,12 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Giras</title>
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: black;
+            height: 205%;
+        }
+
+        div.Contenedor1 {
+            border-color: white;
+            border-style: solid;
+            width: 80%;
+            height: 80%;
+            background-color: black;
+            margin-top: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 10%;
+            display: flex;
+            justify-content: center;
+        }
+
+        p#Discos {
+            font-family: 'Viga', sans-serif;
+            color: white;
+            font-size: 580%;
+            display: flex;
+            justify-content: center;
+
+            margin: 0%;
+        }
+
+        body {
+            background-image: url("./Imagenes/tpr negra.jpg")
+        }
+
+        div#Lista1 {
+            margin-right: 10%;
+            margin-left: 10%;
+        }
+
+        div#Lista1 ul li {
+
+            font-family: 'Viga', sans-serif;
+            display: inline;
+            margin-right: 3%;
+
+
+        }
+
+
+        div#Lista1 ul li a:hover {
+            font-size: 180%;
+            color: rgb(228, 228, 13);
+        }
+
+        div#Lista1 ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 190%;
+        }
+
+        div#Lista1 ul {
+
+            display: flex;
+            justify-content: center;
+            border-color: white;
+            border-style: solid;
+            border-radius: 100px;
+            background-color: black;
+
+
+        }
+
+        p {
+            font-family: 'Viga', sans-serif;
+            color: white;
+        }
+
+        tr {
+            margin: 20%;
+
+        }
+
+       
+
+        tr td {
+            margin-right: 20%;
+            margin-left: 20%;
+            font-size: 140%;
+   padding-right: 10%;
+
+        }
+
+        tr td#i {
+            padding-top: 10%;
+           border-bottom: solid;
+           border-color: white;
+
+
+        }
+        td  a{
+           
+    color: yellow;
+    text-decoration: none;
+    font-family: 'Viga', sans-serif;
+}
+td  a:hover{
+    color: yellow;
+    text-decoration: none;
+    font-size:90% ;
+    font-family: 'Viga', sans-serif;
+}
+        
+
+       
+
+    </style>
 </head>
+
 <body>
-    
+    <header>
+        <p id="Discos">Giras</p>
+        <div id="Lista1">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Integrantes.html">Integrantes</a></li>
+                <li><a href="discos.html">Discos</a></li>
+                <li><a href="Tienda.html">Tienda</a></li>
+
+            </ul>
+
+
+        </div>
+    </header>
+    <div class="Contenedor1">
+        <table>
+
+            <tr>
+                <td id="i">
+                    <p>15 de Mayo, 2020</p>
+                    <p>Sonic Temple Art and Music Festival</p>
+                    <p class="negrita">Columbus,OH</p>
+                </td>
+                <td><a
+                            href="https://www.bandsintown.com/t/101826173?affil_code=js_deathbyrockandroll.com&app_id=js_deathbyrockandroll.com&came_from=242&utm_campaign=ticket&utm_medium=web&utm_source=widget">Tickets</a>
+                </td>
+            </tr>
+            <tr>
+                <td id="i">
+                    <p>10 de Junio, 2020</p>
+                    <p>Nova Rock Festival</p>
+                    <p class="negrita">Nickelsdorf, Austria</p>
+                </td>
+                <td><a
+                            href="https://www.bandsintown.com/t/101798474?affil_code=js_deathbyrockandroll.com&app_id=js_deathbyrockandroll.com&came_from=242&utm_campaign=ticket&utm_medium=web&utm_source=widget">Tickets</a>
+                </td>
+            </tr>
+            <tr>
+                <td id="i">
+                    <p>11 de Junio, 2020</p>
+                    <p>Download Festival</p>
+                    <p class="negrita">Derby Reyno Unido</p>
+                </td>
+                <td><a href="https://downloadfestival.co.uk/tickets/">Tickets</a>
+                </td>
+            </tr>
+            <tr>
+                <td id="i">
+                    <p>18 de Junio, 2020</p>
+                    <p>Rock for People Festival</p>
+                    <p class="negrita">Hradec Králove, República Checa</p>
+                </td>
+                <td><a href="https://rockforpeople.cz/en/vstupenky/?menuTickets=true">Tickets</a>
+                </td>
+            </tr>
+            <tr>
+                <td id="i">
+                    <p>21 de Junio, 2020</p>
+                    <p>PinkPop</p>
+                    <p class="negrita">Landgraaf, Holanda</p>
+                </td>
+                <td><a href="https://www.pinkpop.nl/2020/">Tickets</a>
+                </td>
+            </tr>
+            <tr>
+                <td id="i">
+                    <p>27 de Junio, 2020</p>
+                    <p>Lollapaloza</p>
+                    <p class="negrita">Stockholm, Suecia</p>
+                </td>
+                <td><a href="https://www.lollastockholm.com/tickets/">Tickets</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p>1 de Julio, 2020</p>
+                    <p>Volt Festival</p>
+                    <p class="negrita">Sopron, Hungria</p>
+                </td>
+                <td><a href="https://volt.hu/hu/">Tickets</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
 </body>
+
 </html>
